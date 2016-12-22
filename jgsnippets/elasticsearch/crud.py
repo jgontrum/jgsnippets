@@ -5,7 +5,7 @@ from elasticsearch import Elasticsearch
 from jgsnippets.elasticsearch import elasticsearch
 
 
-class ElasticsearchCrud(object):
+class Crud(object):
 
     def __init__(self, index, doc_type=None, hosts=[]):
         self.index = index
