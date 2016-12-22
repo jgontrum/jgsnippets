@@ -46,7 +46,6 @@ def update(es, id_, query, index, doc_type):
 
 def get_by_id(es, id_, index, doc_type):
     try:
-        print(id_, index, doc_type)
         rs = es.get(index, id_, doc_type)
         rs = rs or {}
     except NotFoundError:

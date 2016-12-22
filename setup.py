@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='snippets',
@@ -8,5 +8,6 @@ setup(
     author_email='gontrum@me.com',
     url='https://github.com/jgontrum/snippets',
     include_package_data=True,
-    license='MIT'
+    license='MIT',
+    packages=find_packages()
 )
