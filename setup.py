@@ -1,5 +1,10 @@
 from setuptools import setup, find_packages
 
+requirements = []
+with open('requirements.txt', 'r') as f:
+    for line in f:
+        requirements.append(line.strip())
+
 setup(
     name='jgsnippets',
     version='0.1',
@@ -9,5 +14,6 @@ setup(
     url='https://github.com/jgontrum/jgsnippets',
     include_package_data=True,
     license='MIT',
-    packages=find_packages()
+    packages=find_packages(),
+    install_requires=requirements
 )
