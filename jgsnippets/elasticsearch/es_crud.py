@@ -1,6 +1,8 @@
-from elasticsearch import Elasticsearch
-from jgsnippets.elasticsearch.elasticsearch import elasticsearch
 import uuid
+
+from elasticsearch import Elasticsearch
+
+from jgsnippets.elasticsearch import elasticsearch
 
 
 class ElasticsearchCrud(object):
