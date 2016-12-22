@@ -1,0 +1,1 @@
+from jgsnippets.elasticsearch.crud import Crud
