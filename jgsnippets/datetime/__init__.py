@@ -1,1 +1,1 @@
-from jgsnippets.datetime.format import now
+from jgsnippets.datetime.format import now, format_dt
