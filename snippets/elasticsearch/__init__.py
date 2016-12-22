@@ -1,1 +1,0 @@
-from snippets.elasticsearch.es_crud import ElasticsearchCrud

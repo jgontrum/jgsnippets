@@ -1,5 +1,5 @@
 from elasticsearch import Elasticsearch
-from snippets.elasticsearch.elasticsearch import elasticsearch
+from jgsnippets.elasticsearch.elasticsearch import elasticsearch
 import uuid
 
 
